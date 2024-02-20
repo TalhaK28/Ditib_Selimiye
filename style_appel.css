@@ -1,0 +1,26 @@
+/* Styles pour limiter la taille des images dans le tableau */
+td img {
+    max-width: 100px; /* Largeur maximale de l'image */
+    max-height: 100px; /* Hauteur maximale de l'image */
+    width: auto; /* Garantit que l'image ne dépasse pas la largeur maximale */
+    height: auto; /* Garantit que l'image ne dépasse pas la hauteur maximale */
+}
+
+.content {
+    padding: 20px;
+}
+
+.link-box {
+    display: inline-block;
+    padding: 10px;
+    background-color: #4CAF50; /* Vert pour les boîtes de lien */
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.link-box:hover {
+    background-color: #45A049; /* Changement de couleur au survol */
+}
